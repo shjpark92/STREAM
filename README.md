@@ -1,15 +1,11 @@
-===============================================
-
 STREAM is the de facto industry standard benchmark
 for measuring sustained memory bandwidth.
 
 Documentation for STREAM is on the web at:
    http://www.cs.virginia.edu/stream/ref.html
 
-===============================================
-NEWS
-===============================================
-UPDATE: October 28 2014:
+# NEWS
+## UPDATE: October 28 2014:
 
 "stream_mpi.c" released in the Versions directory.
 
@@ -41,8 +37,7 @@ NOTE: MPI is not a preferred implementation for
   But it may be useful, and was an interesting 
   exercise to develop and debug.
 
-===============================================
-UPDATE: January 17 2013:
+## UPDATE: January 17 2013:
 
 Version 5.10 of stream.c is finally available!
 
@@ -78,9 +73,7 @@ a number of long-awaited improvements have been made:
   decimals for the bandwidth and more decimals for
   the min/max/avg execution times.
 
-
-===============================================
-UPDATE: February 19 2009:
+## UPDATE: February 19 2009:
 
 The most recent "official" versions have been renamed
 "stream.f" and "stream.c" -- all other versions have
@@ -94,17 +87,11 @@ the FORTRAN version ("stream.f").  The new version defines
 entry points both with and without trailing underscores,
 so it *should* link automagically with any Fortran compiler.
 
-===============================================
-
 STREAM is a project of "Dr. Bandwidth":
 	John D. McCalpin, Ph.D.
 	john@mccalpin.com
-
-===============================================
 
 The STREAM web and ftp sites are currently hosted at
 the Department of Computer Science at the University of
 Virginia under the generous sponsorship of Professor Bill
 Wulf and Professor Alan Batson.
-
-===============================================
